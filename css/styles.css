@@ -1,0 +1,167 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* SECTIONS */
+.colored-section {
+  color: #fff;
+  background-color: #ff4c68;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* CONTAINER */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* HEADINGS */
+.big-heading {
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  text-align: left;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat-Light";
+  font-size: 1.2rem;
+}
+
+/* TITLE SECTION */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Buttons */
+.download-buttons {
+  margin: 5% 3% 5% 0;
+}
+
+/* TITLE Image */
+.title-image {
+  position: absolute;
+  right: 20%;
+  transform: rotate(25deg);
+  width: 21%;
+}
+
+/* Feature Section */
+#features {
+  position: relative;
+  /* z-index: 1; */
+}
+
+.feature-section {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+  position: relative;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+/* Press */
+#press {
+  position: relative;
+}
+
+.press-logo {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+  position: relative;
+}
+
+.price-section-HEADINGS {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.price-text {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+/* Footer */
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* Media  */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
